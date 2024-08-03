@@ -6,6 +6,8 @@ import os
 import datetime
 import getpass
 
+os.system('cls' if os.name == 'nt' else 'clear')
+
 def apply_gradient(text, start_color, end_color):
     gradient_text = ""
     color_range = len(text)
